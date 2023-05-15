@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ElephantApp extends StatefulWidget {
-  const ElephantApp({super.key});
+class ToDoListApp extends StatefulWidget {
+  const ToDoListApp({super.key});
 
   @override
-  State<ElephantApp> createState() => _ElephantAppState();
+  State<ToDoListApp> createState() => _ToDoListAppState();
 }
 
-class _ElephantAppState extends State<ElephantApp> {
+class _ToDoListAppState extends State<ToDoListApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
